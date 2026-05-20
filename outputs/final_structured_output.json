@@ -1,0 +1,157 @@
+{
+  "strengths": [
+    {
+      "cluster_id": 0,
+      "label": "Learning outcomes and personal development",
+      "count": 8,
+      "representative_quotes": [
+        "I became more confident speaking English in front of others.",
+        "I became more patient and better at cooperating with others.",
+        "My English improved a lot during the exchange."
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "label": "Mixed logistical experiences",
+      "count": 6,
+      "representative_quotes": [
+        "The evenings were quiet, which was actually nice.",
+        "The room was nice, although it was a bit too cold at night.",
+        "The accommodation was simple but absolutely fine for me."
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "label": "Positive learning atmosphere",
+      "count": 17,
+      "representative_quotes": [
+        "I liked how practical the sessions were and how easy it was to participate.",
+        "I really enjoyed the interactive workshops and the relaxed atmosphere.",
+        "The group energy was amazing and the activities were engaging."
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "label": "Skills development and future motivation",
+      "count": 7,
+      "representative_quotes": [
+        "I improved my digital skills while preparing content with the group.",
+        "I developed better problem-solving skills during the activities.",
+        "I learned to collaborate better and listen more carefully to others."
+      ]
+    }
+  ],
+  "improvements": [
+    {
+      "cluster_id": 0,
+      "label": "Organization and communication issues",
+      "count": 6,
+      "representative_quotes": [
+        "It was not badly organized, but communication could be improved.",
+        "The accommodation could have been better organized.",
+        "Not everything was clear from the beginning."
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "label": "Food and meal options",
+      "count": 2,
+      "representative_quotes": [
+        "The food was okay, but there were too few vegetarian options.",
+        "The meals were decent, but nothing special."
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "label": "False negative / should be reviewed",
+      "count": 1,
+      "representative_quotes": [
+        "This mobility helped me think more seriously about my future career."
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "label": "Schedule intensity and session clarity",
+      "count": 4,
+      "representative_quotes": [
+        "The program was good overall, but there was not enough time for reflection.",
+        "There was a lot to learn, but sometimes the instructions were difficult to follow.",
+        "Some sessions were interesting, but the timing was confusing."
+      ]
+    }
+  ],
+  "learning_outcomes": [
+    {
+      "label": "Better awareness of the European project and the EU values",
+      "count": 1,
+      "representative_quotes": [
+        "I became more aware of European values and active citizenship."
+      ]
+    },
+    {
+      "label": "Enhanced employability and improved career prospects",
+      "count": 1,
+      "representative_quotes": [
+        "This mobility helped me think more seriously about my future career."
+      ]
+    },
+    {
+      "label": "Enhanced intercultural awareness",
+      "count": 3,
+      "representative_quotes": [
+        "I feel more open-minded and understanding toward other cultures now.",
+        "I now understand cultural differences much better.",
+        "I learned how to work with people from very different cultural backgrounds."
+      ]
+    },
+    {
+      "label": "Enhanced positive interactions with people from different backgrounds",
+      "count": 2,
+      "representative_quotes": [
+        "I became more patient and better at cooperating with others.",
+        "I learned to collaborate better and listen more carefully to others."
+      ]
+    },
+    {
+      "label": "Improved foreign language and digital competences",
+      "count": 3,
+      "representative_quotes": [
+        "I improved my digital skills while preparing content with the group.",
+        "I became more confident speaking English in front of others.",
+        "My English improved a lot during the exchange."
+      ]
+    },
+    {
+      "label": "Improved learning performance",
+      "count": 2,
+      "representative_quotes": [
+        "I developed better problem-solving skills during the activities.",
+        "This project improved my communication and teamwork skills."
+      ]
+    },
+    {
+      "label": "Increased motivation for future education or training",
+      "count": 3,
+      "representative_quotes": [
+        "This experience motivated me to join more trainings in the future.",
+        "I am more motivated to study abroad again in the future.",
+        "I feel inspired to continue learning after this project."
+      ]
+    },
+    {
+      "label": "Increased self-empowerment and self-esteem",
+      "count": 2,
+      "representative_quotes": [
+        "I gained more self-confidence and I am less afraid to share my opinion.",
+        "I learned that I am capable of much more than I thought."
+      ]
+    },
+    {
+      "label": "Increased sense of initiative and entrepreneurship",
+      "count": 1,
+      "representative_quotes": [
+        "I realized I can take more initiative in group work."
+      ]
+    }
+  ]
+}

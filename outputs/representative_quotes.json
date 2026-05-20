@@ -1,0 +1,138 @@
+{
+  "strengths": {
+    "cluster_0": {
+      "label": "Learning outcomes and personal development",
+      "count": 8,
+      "quotes": [
+        {
+          "sentence": "I became more confident speaking English in front of others.",
+          "similarity": 0.855
+        },
+        {
+          "sentence": "I became more patient and better at cooperating with others.",
+          "similarity": 0.715
+        },
+        {
+          "sentence": "My English improved a lot during the exchange.",
+          "similarity": 0.708
+        }
+      ]
+    },
+    "cluster_1": {
+      "label": "Mixed logistical experiences",
+      "count": 6,
+      "quotes": [
+        {
+          "sentence": "The evenings were quiet, which was actually nice.",
+          "similarity": 0.794
+        },
+        {
+          "sentence": "The room was nice, although it was a bit too cold at night.",
+          "similarity": 0.732
+        },
+        {
+          "sentence": "The accommodation was simple but absolutely fine for me.",
+          "similarity": 0.732
+        }
+      ]
+    },
+    "cluster_2": {
+      "label": "Positive learning atmosphere",
+      "count": 17,
+      "quotes": [
+        {
+          "sentence": "I liked how practical the sessions were and how easy it was to participate.",
+          "similarity": 0.797
+        },
+        {
+          "sentence": "I really enjoyed the interactive workshops and the relaxed atmosphere.",
+          "similarity": 0.776
+        },
+        {
+          "sentence": "The group energy was amazing and the activities were engaging.",
+          "similarity": 0.738
+        }
+      ]
+    },
+    "cluster_3": {
+      "label": "Skills development and future motivation",
+      "count": 7,
+      "quotes": [
+        {
+          "sentence": "I improved my digital skills while preparing content with the group.",
+          "similarity": 0.774
+        },
+        {
+          "sentence": "I developed better problem-solving skills during the activities.",
+          "similarity": 0.773
+        },
+        {
+          "sentence": "I learned to collaborate better and listen more carefully to others.",
+          "similarity": 0.749
+        }
+      ]
+    }
+  },
+  "improvements": {
+    "cluster_0": {
+      "label": "Organization and communication issues",
+      "count": 6,
+      "quotes": [
+        {
+          "sentence": "It was not badly organized, but communication could be improved.",
+          "similarity": 0.785
+        },
+        {
+          "sentence": "The accommodation could have been better organized.",
+          "similarity": 0.691
+        },
+        {
+          "sentence": "Not everything was clear from the beginning.",
+          "similarity": 0.677
+        }
+      ]
+    },
+    "cluster_1": {
+      "label": "Food and meal options",
+      "count": 2,
+      "quotes": [
+        {
+          "sentence": "The food was okay, but there were too few vegetarian options.",
+          "similarity": 0.896
+        },
+        {
+          "sentence": "The meals were decent, but nothing special.",
+          "similarity": 0.896
+        }
+      ]
+    },
+    "cluster_2": {
+      "label": "False negative / should be reviewed",
+      "count": 1,
+      "quotes": [
+        {
+          "sentence": "This mobility helped me think more seriously about my future career.",
+          "similarity": 1.0
+        }
+      ]
+    },
+    "cluster_3": {
+      "label": "Schedule intensity and session clarity",
+      "count": 4,
+      "quotes": [
+        {
+          "sentence": "The program was good overall, but there was not enough time for reflection.",
+          "similarity": 0.76
+        },
+        {
+          "sentence": "There was a lot to learn, but sometimes the instructions were difficult to follow.",
+          "similarity": 0.746
+        },
+        {
+          "sentence": "Some sessions were interesting, but the timing was confusing.",
+          "similarity": 0.721
+        }
+      ]
+    }
+  }
+}
