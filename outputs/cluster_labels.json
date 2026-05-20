@@ -1,0 +1,14 @@
+{
+  "positive": {
+    "0": "Learning outcomes and personal development",
+    "1": "Mixed logistical experiences",
+    "2": "Positive learning atmosphere",
+    "3": "Skills development and future motivation"
+  },
+  "negative": {
+    "0": "Organization and communication issues",
+    "1": "Food and meal options",
+    "2": "False negative / should be reviewed",
+    "3": "Schedule intensity and session clarity"
+  }
+}
