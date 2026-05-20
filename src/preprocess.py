@@ -1,12 +1,30 @@
 import re
 import pandas as pd
 import spacy
+import csv
 
 nlp = spacy.load("en_core_web_sm")
 
-
 def load_data(path: str) -> pd.DataFrame:
-    return pd.read_csv(path)
+    try:
+        # Try normal comma CSV first
+        df = pd.read_csv(path, encoding="utf-8-sig")
+    except pd.errors.ParserError:
+        # Try semicolon CSV, common with European Excel settings
+        df = pd.read_csv(path, sep=";", encoding="utf-8-sig", engine="python")
+
+    print("Detected columns:", df.columns.tolist())
+    print(df.head())
+
+    required_columns = {"project_id", "response_id", "question", "text"}
+
+    if not required_columns.issubset(set(df.columns)):
+        raise ValueError(
+            f"CSV must contain columns: {required_columns}. "
+            f"Detected columns: {df.columns.tolist()}"
+        )
+
+    return df
 
 
 def clean_text(text: str) -> str:
