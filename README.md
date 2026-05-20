@@ -13,6 +13,8 @@ classifies learning outcomes,
 clusters positive and negative themes,
 and generates structured CSV outputs.
 
+
+
 #Features
 1. Sentence Splitting
 Breaks long responses into individual sentences for analysis.
@@ -62,6 +64,8 @@ Cluster labels are loaded from:
 
 clustering_labels.json which can be edited manually, allowing user to select the most relevant to the project labels
 
+
+
 #Requirements
 
 Install dependencies:
@@ -77,6 +81,8 @@ Running the Pipeline
 Run the complete evaluator:
 
 python run_evaluator_all_steps.py
+
+
 
 #Notes
 
