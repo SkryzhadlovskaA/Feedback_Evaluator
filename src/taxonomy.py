@@ -26,15 +26,17 @@ ERASMUS_OUTCOMES = {
             "I feel more able to start my own ideas"
         ]
     },
-    "self_empowerment": {
-        "label": "Increased self-empowerment and self-esteem",
-        "description": "greater self-confidence, self-esteem, feeling empowered, personal confidence, belief in oneself",
-        "examples": [
-            "I became more confident",
-            "I believe in myself more now",
-            "I feel more empowered"
-        ]
-    },
+   "self_empowerment": {
+    "label": "Increased self-empowerment and self-esteem",
+    "description": "greater self-confidence, self-esteem, feeling empowered, personal confidence, belief in oneself, realizing one's own abilities and potential",
+    "examples": [
+        "I became more confident",
+        "I believe in myself more now",
+        "I feel more empowered",
+        "I learned that I am capable of more than I thought",
+        "I am less afraid to share my opinion"
+    ]
+},
     "language_digital": {
         "label": "Improved foreign language and digital competences",
         "description": "better foreign language skills, communication in another language, digital competence, technical skills",
@@ -63,14 +65,16 @@ ERASMUS_OUTCOMES = {
         ]
     },
     "positive_interactions": {
-        "label": "Enhanced positive interactions with people from different backgrounds",
-        "description": "better collaboration, positive interaction, communication with diverse people, inclusion and mutual respect",
-        "examples": [
-            "I learned to work with people from different backgrounds",
-            "I communicate better with diverse groups",
-            "I became better at interacting with different people"
-        ]
-    },
+    "label": "Enhanced positive interactions with people from different backgrounds",
+    "description": "better collaboration, teamwork, communication with others, positive interaction, working with diverse people, inclusion and mutual respect",
+    "examples": [
+        "I learned to work with people from different backgrounds",
+        "I communicate better with diverse groups",
+        "I became better at interacting with different people",
+        "I improved my communication and teamwork skills",
+        "I learned to collaborate better with others"
+    ]
+},
     "eu_values_awareness": {
         "label": "Better awareness of the European project and the EU values",
         "description": "understanding European values, EU values, European project, European identity",
