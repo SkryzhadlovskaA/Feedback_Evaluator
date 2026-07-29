@@ -1,5 +1,8 @@
+"""Keyword-based detection of learning-related participant sentences."""
+
 from typing import List
 
+# Phrases that suggest personal learning or development
 LEARNING_CUES: List[str] = [
     "learned",
     "learnt",
@@ -28,6 +31,7 @@ LEARNING_CUES: List[str] = [
     "i learned how to"
 ]
 
+# Logistics/organisation mentions, which are not treated as learning even if positive
 NON_LEARNING_HINTS: List[str] = [
     "food",
     "hotel",
@@ -45,6 +49,7 @@ NON_LEARNING_HINTS: List[str] = [
 
 
 def is_learning_sentence(text: str) -> bool:
+    """True if the sentence likely describes learning (used with question rules in pipeline)."""
     t = text.lower()
 
     # Rule 1: if it's clearly about logistics → not learning

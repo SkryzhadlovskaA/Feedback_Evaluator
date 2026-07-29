@@ -1,0 +1,109 @@
+{
+  "project_name": "project1_real_data",
+  "input_file": "C:\\Users\\askry\\Desktop\\FeedbackEvaluator\\data\\raw\\project1_real_data.csv",
+  "project_id": "Nature_Training_Course",
+  "project_topic_category": "Project topic: Sustainability and environmental awareness",
+  "strengths": [
+    {
+      "cluster_id": 0,
+      "label": "Positive Aspects Group 1",
+      "count": 4,
+      "representative_quotes": [
+        "No negative aspects",
+        "I did not notice any negative aspects",
+        "No negative"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "label": "Positive Aspects Group 2",
+      "count": 17,
+      "representative_quotes": [
+        "I liked the theoretical part of the project, we learned about something new, all the information was well structured and well presented in order to master it",
+        "I liked the little art project the most.",
+        "The most I liked when we were collaborating on creating projects that possibly can be efficient in reducing contamination in particular areas."
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "label": "Positive Aspects Group 3",
+      "count": 9,
+      "representative_quotes": [
+        "Thanks to the open-minded approach to learning and teaching that the trainers very generously offered.",
+        "I am inspired to sustain my awakened passion as a Trainer 😍.",
+        "I am particularly delighted that they - the trainers - welcomed my initiative to lead and guide a 20 minute meditation session for all participants."
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "label": "Positive Aspects Group 4",
+      "count": 5,
+      "representative_quotes": [
+        "All is good",
+        "I like all",
+        "Everything was really good, satisfied."
+      ]
+    }
+  ],
+  "improvements": [
+    {
+      "cluster_id": 0,
+      "label": "Negative Aspects Group 1",
+      "count": 4,
+      "representative_quotes": [
+        "more knowledge about critical thinking and critical design",
+        "Much more, critical thinking, connection with nature, opening eyes for nature",
+        "Only negative aspect was it was very few days."
+      ]
+    }
+  ],
+  "learning_outcomes": [
+    {
+      "label": "Enhanced intercultural awareness",
+      "count": 1,
+      "representative_quotes": [
+        "Thanks to the open-minded approach to learning and teaching that the trainers very generously offered."
+      ]
+    },
+    {
+      "label": "Enhanced positive interactions with people from different backgrounds",
+      "count": 2,
+      "representative_quotes": [
+        "I have now discovered a new skill which I shall work to develop for the common good of all as I journey through life .",
+        "Lots of things, interesting theories and I got to deepen my social skills."
+      ]
+    },
+    {
+      "label": "Improved learning performance",
+      "count": 1,
+      "representative_quotes": [
+        "I liked the theoretical part of the project, we learned about something new, all the information was well structured and well presented in order to master it"
+      ]
+    },
+    {
+      "label": "Increased motivation for future education or training",
+      "count": 1,
+      "representative_quotes": [
+        "I am inspired to sustain my awakened passion as a Trainer 😍."
+      ]
+    },
+    {
+      "label": "Other",
+      "count": 8,
+      "representative_quotes": [
+        "more knowledge about critical thinking and critical design",
+        "Much more, critical thinking, connection with nature, opening eyes for nature",
+        "As well as, explored from a different perspective the application of Design Thinking in coordinating trainings for young learners."
+      ]
+    },
+    {
+      "label": "Project topic: Sustainability and environmental awareness",
+      "count": 7,
+      "representative_quotes": [
+        "How to live life with sustainability",
+        "More I do about environment sustainability",
+        "How I can live sustainably with the focus on the environment because most times we tend to do things and forget that they have an impact on the environment so the project was a great eye opener"
+      ]
+    }
+  ]
+}

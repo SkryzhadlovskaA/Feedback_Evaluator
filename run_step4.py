@@ -1,4 +1,3 @@
-import json
 import pandas as pd
 
 from src.embeddings import Embedder
@@ -21,7 +20,14 @@ def main():
         return
 
     embedder = Embedder()
-    matcher = OutcomeMatcher(embedder)
+
+    project_id = None
+    if "project_id" in df.columns:
+        ids = df["project_id"].dropna().astype(str).str.strip().unique()
+        if len(ids) > 0:
+            project_id = ids[0]
+
+    matcher = OutcomeMatcher(embedder, project_id=project_id)
 
     sentence_embeddings = embedder.encode(learning_df["sentence"].tolist())
     learning_df["embedding"] = list(sentence_embeddings)
@@ -31,10 +37,6 @@ def main():
     learning_df["outcome_key"] = single_results.apply(lambda x: x[0])
     learning_df["outcome_label"] = single_results.apply(lambda x: x[1])
     learning_df["outcome_score"] = single_results.apply(lambda x: x[2])
-
-    learning_df["multi_matches"] = learning_df["embedding"].apply(
-        lambda emb: json.dumps(matcher.match_multi(emb), ensure_ascii=False)
-    )
 
     print("\nOutcome counts:")
     print(learning_df["outcome_label"].value_counts(dropna=False), "\n")

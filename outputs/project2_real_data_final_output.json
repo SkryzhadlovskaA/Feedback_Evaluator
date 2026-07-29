@@ -1,0 +1,131 @@
+{
+  "project_name": "project2_real_data",
+  "input_file": "data/raw/project2_real_data.csv",
+  "project_id": "Career_Youth_Exchange",
+  "project_topic_category": "Project topic: Career development and professional skills",
+  "strengths": [
+    {
+      "cluster_id": 0,
+      "label": "Positive Aspects Group 1",
+      "count": 7,
+      "representative_quotes": [
+        "Yes, I learned a lot",
+        "Yes, I developed creative thinking",
+        "Yes, I have."
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "label": "Positive Aspects Group 2",
+      "count": 15,
+      "representative_quotes": [
+        "Activities where we had to talk about personal experiences, learning from others and having to talk about what success means for each of us.",
+        "I was happy that we were introduced to some activities like coming up with our own ted talks, ikigai, and the river session.",
+        "It was interesting to see how people from so many backgrounds shared life experiences or struggles and we collectively gathered so much advice from each other."
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "label": "Positive Aspects Group 3",
+      "count": 13,
+      "representative_quotes": [
+        "in addition to these, I improved my language skills and learned to look at success from different perspectives with my friends",
+        "I improved my empathy and kindness as well as my self-confidence.",
+        "Yes I improved in social interaction."
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "label": "Positive Aspects Group 4",
+      "count": 8,
+      "representative_quotes": [
+        "Everything was perfect",
+        "No, everything was fine.",
+        "Everything was very smooth, so i don't have any ideeas for improvement."
+      ]
+    }
+  ],
+  "improvements": [
+    {
+      "cluster_id": 0,
+      "label": "Negative Aspects Group 1",
+      "count": 5,
+      "representative_quotes": [
+        "Less fear and the lessons learnt in my life were clearer",
+        "I developed vulnerability.",
+        "Also, it wasn't 100 percent clear where the location was and this could be improved further."
+      ]
+    }
+  ],
+  "learning_outcomes": [
+    {
+      "label": "Enhanced employability and improved career prospects",
+      "count": 2,
+      "representative_quotes": [
+        "Plus some management skills.",
+        "yes, i understood there are many career opportunities"
+      ]
+    },
+    {
+      "label": "Enhanced intercultural awareness",
+      "count": 3,
+      "representative_quotes": [
+        "English speaking, more open-mind, empathize more with people, feel more friendly and ambitious",
+        "Less fear and the lessons learnt in my life were clearer",
+        "Especially our human relations and social ties have become much stronger."
+      ]
+    },
+    {
+      "label": "Enhanced positive interactions with people from different backgrounds",
+      "count": 4,
+      "representative_quotes": [
+        "I improved my empathy and kindness as well as my self-confidence.",
+        "Yes I improved in social interaction.",
+        "I became more open and communicative."
+      ]
+    },
+    {
+      "label": "Improved foreign language and digital competences",
+      "count": 5,
+      "representative_quotes": [
+        "in addition to these, I improved my language skills and learned to look at success from different perspectives with my friends",
+        "communication skill.",
+        "Communication skills"
+      ]
+    },
+    {
+      "label": "Increased self-empowerment and self-esteem",
+      "count": 2,
+      "representative_quotes": [
+        "Self-confidence",
+        "Definitely emotional intelligence and social competence"
+      ]
+    },
+    {
+      "label": "Increased sense of initiative and entrepreneurship",
+      "count": 2,
+      "representative_quotes": [
+        "I got very motivated and inspired from the all the activities and talks I had with the people on the project and I developed my talking in front of public skills.",
+        "Yes, I developed creative thinking"
+      ]
+    },
+    {
+      "label": "Other",
+      "count": 7,
+      "representative_quotes": [
+        "I developed vulnerability.",
+        "Public speaking",
+        "this project was my first project and also my first experience abroad."
+      ]
+    },
+    {
+      "label": "Project topic: Career development and professional skills",
+      "count": 4,
+      "representative_quotes": [
+        "Developed leadership skills.",
+        "Yes, my biggest improvement would be public speaking, but besides i also developed my constructive thinking and team work.",
+        "Teamwork, public speaking and time management"
+      ]
+    }
+  ]
+}

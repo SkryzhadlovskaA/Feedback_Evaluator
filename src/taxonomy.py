@@ -1,3 +1,10 @@
+"""
+Erasmus+ outcome categories and per-project topic definitions.
+
+Each category has a label (used in output), description, and example sentences
+for embedding-based matching in learningoutcomes_detector.py.
+"""
+
 ERASMUS_OUTCOMES = {
     "learning_performance": {
         "label": "Improved learning performance",
@@ -94,3 +101,46 @@ ERASMUS_OUTCOMES = {
         ]
     }
 }
+
+OTHER_OUTCOME_LABEL = "Other"
+
+# Add one entry per project_id before running the pipeline on a new project.
+PROJECT_TOPICS = {
+    "Nature_Training_Course": {
+        "label": "Project topic: Sustainability and environmental awareness",
+        "description": (
+            "sustainability, sustainable living, eco-friendly practices, environmental impact, "
+            "ecology, nature, contamination, green habits, environmental education"
+        ),
+        "examples": [
+            "How to live life with sustainability",
+            "How I can live sustainably with the focus on the environment",
+            "About ecology in different countries",
+            "I learned new practices for CO2 reduction",
+            "More knowledge about critical thinking and connection with nature"
+        ]
+    },
+    "Career_Youth_Exchange": {
+        "label": "Project topic: Career development and professional skills",
+        "description": (
+            "career development, employability, professional skills, CV preparation, "
+            "public speaking, leadership, teamwork, success, job opportunities, workplace skills"
+        ),
+        "examples": [
+            "Teamwork, public speaking and time management",
+            "yes, i understood there are many career opportunities",
+            "Developed leadership skills",
+            "Yes, my biggest improvement would be public speaking",
+            "The CV preparation activity helped me a lot"
+        ]
+    }
+}
+
+
+def get_outcome_labels_for_project(project_id: str | None) -> list[str]:
+    """All labels used for matching: 10 Erasmus + project topic (if defined)."""
+    labels = [item["label"] for item in ERASMUS_OUTCOMES.values()]
+    if project_id and project_id in PROJECT_TOPICS:
+        labels.append(PROJECT_TOPICS[project_id]["label"])
+    labels.append(OTHER_OUTCOME_LABEL)
+    return labels

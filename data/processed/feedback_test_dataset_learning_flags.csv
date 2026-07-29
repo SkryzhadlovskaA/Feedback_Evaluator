@@ -1,0 +1,61 @@
+project_id,response_id,question,text,sentence,sentiment,sentiment_score,is_learning
+proj_test,1,What did you like most?,The trainers were incredibly supportive and made everyone feel included.,The trainers were incredibly supportive and made everyone feel included.,positive,0.3597,False
+proj_test,2,What did you like most?,I really enjoyed the interactive workshops and the relaxed atmosphere.,I really enjoyed the interactive workshops and the relaxed atmosphere.,positive,0.7778,False
+proj_test,3,What did you like most?,The group energy was amazing and the activities were engaging.,The group energy was amazing and the activities were engaging.,positive,0.8074,False
+proj_test,4,What did you like most?,The facilitators were well prepared and always helpful.,The facilitators were well prepared and always helpful.,positive,0.6,False
+proj_test,5,What did you like most?,I liked how practical the sessions were and how easy it was to participate.,I liked how practical the sessions were and how easy it was to participate.,positive,0.6,False
+proj_test,6,What did you like most?,The cultural evening was inspiring and brought everyone together.,The cultural evening was inspiring and brought everyone together.,positive,0.6,False
+proj_test,7,What did you like most?,"The atmosphere was warm, welcoming, and motivating.","The atmosphere was warm, welcoming, and motivating.",positive,0.6,False
+proj_test,8,What did you like most?,I appreciated the safe space for sharing ideas and experiences.,I appreciated the safe space for sharing ideas and experiences.,positive,0.8402,False
+proj_test,9,What did you like most?,"The schedule was full, but the activities were meaningful and fun.","The schedule was full, but the activities were meaningful and fun.",positive,0.8126,False
+proj_test,10,What did you like most?,"Even though the days were long, I enjoyed the teamwork a lot.","Even though the days were long, I enjoyed the teamwork a lot.",positive,0.6,False
+proj_test,11,What could be improved?,The schedule was too intense and there were not enough breaks.,The schedule was too intense and there were not enough breaks.,positive,0.5,False
+proj_test,12,What could be improved?,The accommodation could have been better organized.,The accommodation could have been better organized.,negative,-0.6,False
+proj_test,13,What could be improved?,"Some sessions were interesting, but the timing was confusing.","Some sessions were interesting, but the timing was confusing.",negative,-0.6,False
+proj_test,14,What could be improved?,There should have been more free time in the evenings.,There should have been more free time in the evenings.,positive,0.5563,False
+proj_test,15,What could be improved?,"The food was okay, but there were too few vegetarian options.","The food was okay, but there were too few vegetarian options.",negative,-0.6,False
+proj_test,16,What could be improved?,The transport instructions were not clear before arrival.,The transport instructions were not clear before arrival.,positive,0.5,False
+proj_test,17,What could be improved?,"The room was nice, although it was a bit too cold at night.","The room was nice, although it was a bit too cold at night.",positive,0.4215,False
+proj_test,18,What could be improved?,"The trainers were friendly, but some explanations were unclear.","The trainers were friendly, but some explanations were unclear.",neutral,-0.1027,False
+proj_test,19,What could be improved?,"It was not badly organized, but communication could be improved.","It was not badly organized, but communication could be improved.",positive,0.5,False
+proj_test,20,What could be improved?,I expected more interactive activities and fewer presentations.,I expected more interactive activities and fewer presentations.,neutral,0.0,False
+proj_test,21,What could be improved?,"The venue was beautiful, yet the internet connection was unreliable.","The venue was beautiful, yet the internet connection was unreliable.",positive,0.5994,False
+proj_test,22,What could be improved?,"Nothing major was wrong, but the days felt slightly overloaded.","Nothing major was wrong, but the days felt slightly overloaded.",positive,0.5,False
+proj_test,23,What could be improved?,"The program was useful overall, though the mornings started too early.","The program was useful overall, though the mornings started too early.",positive,0.4404,False
+proj_test,24,What could be improved?,"There was a lot to learn, but sometimes the instructions were difficult to follow.","There was a lot to learn, but sometimes the instructions were difficult to follow.",negative,-0.5023,False
+proj_test,25,What could be improved?,"The activities were good; however, the transitions between sessions were messy.","The activities were good; however, the transitions between sessions were messy.",neutral,0.1027,False
+proj_test,26,What did you learn?,I became more confident speaking English in front of others.,I became more confident speaking English in front of others.,positive,0.5413,True
+proj_test,27,What did you learn?,I learned how to work with people from very different cultural backgrounds.,I learned how to work with people from very different cultural backgrounds.,neutral,0.0,True
+proj_test,28,What did you learn?,This project improved my communication and teamwork skills.,This project improved my communication and teamwork skills.,positive,0.4767,True
+proj_test,29,What did you learn?,I feel more open-minded and understanding toward other cultures now.,I feel more open-minded and understanding toward other cultures now.,neutral,0.0,True
+proj_test,30,What did you learn?,I realized I can take more initiative in group work.,I realized I can take more initiative in group work.,neutral,0.0,True
+proj_test,31,What did you learn?,I gained more self-confidence and I am less afraid to share my opinion.,I gained more self-confidence and I am less afraid to share my opinion.,positive,0.5478,True
+proj_test,32,What did you learn?,My English improved a lot during the exchange.,My English improved a lot during the exchange.,positive,0.4767,True
+proj_test,33,What did you learn?,I learned to collaborate better and listen more carefully to others.,I learned to collaborate better and listen more carefully to others.,positive,0.5709,True
+proj_test,34,What did you learn?,This experience motivated me to join more trainings in the future.,This experience motivated me to join more trainings in the future.,positive,0.6369,True
+proj_test,35,What did you learn?,I became more aware of European values and active citizenship.,I became more aware of European values and active citizenship.,positive,0.6597,True
+proj_test,36,What did you learn?,I improved my digital skills while preparing content with the group.,I improved my digital skills while preparing content with the group.,positive,0.4767,True
+proj_test,37,What did you learn?,I now understand cultural differences much better.,I now understand cultural differences much better.,positive,0.4404,True
+proj_test,38,What did you learn?,I learned that I am capable of much more than I thought.,I learned that I am capable of much more than I thought.,positive,0.3818,True
+proj_test,39,What did you learn?,This mobility helped me think more seriously about my future career.,This mobility helped me think more seriously about my future career.,negative,-0.2484,True
+proj_test,40,What did you learn?,I feel inspired to continue learning after this project.,I feel inspired to continue learning after this project.,positive,0.4939,True
+proj_test,41,Any other comments?,The project was intense.,The project was intense.,neutral,0.0772,False
+proj_test,42,Any other comments?,"The project was intense, but in a good way.","The project was intense, but in a good way.",positive,0.6124,False
+proj_test,43,Any other comments?,"It was challenging, yet very rewarding.","It was challenging, yet very rewarding.",positive,0.6478,False
+proj_test,44,Any other comments?,The accommodation was simple but absolutely fine for me.,The accommodation was simple but absolutely fine for me.,positive,0.3898,False
+proj_test,45,Any other comments?,"I did not dislike the sessions, but I needed more breaks.","I did not dislike the sessions, but I needed more breaks.",neutral,0.1511,False
+proj_test,46,Any other comments?,The trainers were not unfriendly at all.,The trainers were not unfriendly at all.,positive,0.2755,False
+proj_test,47,Any other comments?,"I cannot say the organization was bad, but it was not smooth either.","I cannot say the organization was bad, but it was not smooth either.",negative,-0.3071,False
+proj_test,48,Any other comments?,The workshops were surprisingly good.,The workshops were surprisingly good.,positive,0.6249,False
+proj_test,49,Any other comments?,"The evenings were quiet, which was actually nice.","The evenings were quiet, which was actually nice.",positive,0.4215,False
+proj_test,50,Any other comments?,"I was nervous at first, but later I felt much more confident.","I was nervous at first, but later I felt much more confident.",positive,0.6357,False
+proj_test,51,What did you like most?,The sessions were not only informative but also very engaging.,The sessions were not only informative but also very engaging.,positive,0.5483,False
+proj_test,52,What could be improved?,Not everything was clear from the beginning.,Not everything was clear from the beginning.,positive,0.5,False
+proj_test,53,What could be improved?,"The program was good overall, but there was not enough time for reflection.","The program was good overall, but there was not enough time for reflection.",positive,0.5,False
+proj_test,54,What did you learn?,I developed better problem-solving skills during the activities.,I developed better problem-solving skills during the activities.,positive,0.4404,True
+proj_test,55,What did you learn?,I became more patient and better at cooperating with others.,I became more patient and better at cooperating with others.,positive,0.4877,True
+proj_test,56,What did you like most?,"I loved how supportive everyone was, especially during team tasks.","I loved how supportive everyone was, especially during team tasks.",positive,0.7269,False
+proj_test,57,What could be improved?,The last day felt rushed and somewhat disorganized.,The last day felt rushed and somewhat disorganized.,negative,-0.228,False
+proj_test,58,What did you learn?,I am more motivated to study abroad again in the future.,I am more motivated to study abroad again in the future.,positive,0.5095,True
+proj_test,59,Any other comments?,"It was exhausting, though definitely worth it.","It was exhausting, though definitely worth it.",positive,0.2732,False
+proj_test,60,Any other comments?,"The meals were decent, but nothing special.","The meals were decent, but nothing special.",negative,-0.438,False

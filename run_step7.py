@@ -9,19 +9,19 @@ OUTCOME_INPUT = "data/processed/learning_outcomes_debug.csv"
 OUTPUT_JSON = "outputs/final_structured_output.json"
 
 
-POSITIVE_CLUSTER_LABELS = {
-    0: "Learning outcomes and personal development",
-    1: "Mixed logistical experiences",
-    2: "Positive learning atmosphere",
-    3: "Skills development and future motivation"
-}
+def load_cluster_labels(path="outputs/cluster_labels.json"):
+    with open(path, "r", encoding="utf-8") as f:
+        labels = json.load(f)
 
-NEGATIVE_CLUSTER_LABELS = {
-    0: "Organization and communication issues",
-    1: "Food and meal options",
-    2: "False negative / should be reviewed",
-    3: "Schedule intensity and session clarity"
-}
+    positive_labels = {
+        int(k): v for k, v in labels.get("positive", {}).items()
+    }
+
+    negative_labels = {
+        int(k): v for k, v in labels.get("negative", {}).items()
+    }
+
+    return positive_labels, negative_labels
 
 
 def cluster_section(df, label_dict, top_n=3):
@@ -65,9 +65,11 @@ def main():
     neg_df = pd.read_csv(NEG_INPUT)
     outcome_df = pd.read_csv(OUTCOME_INPUT)
 
+    positive_labels, negative_labels = load_cluster_labels()
+
     final_output = {
-        "strengths": cluster_section(pos_df, POSITIVE_CLUSTER_LABELS),
-        "improvements": cluster_section(neg_df, NEGATIVE_CLUSTER_LABELS),
+        "strengths": cluster_section(pos_df, positive_labels),
+        "improvements": cluster_section(neg_df, negative_labels),
         "learning_outcomes": outcome_section(outcome_df)
     }
 

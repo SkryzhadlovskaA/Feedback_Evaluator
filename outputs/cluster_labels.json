@@ -1,14 +1,14 @@
 {
   "positive": {
-    "0": "Learning outcomes and personal development",
-    "1": "Mixed logistical experiences",
-    "2": "Positive learning atmosphere",
-    "3": "Skills development and future motivation"
+    "0": "Positive Aspects Group 1",
+    "1": "Positive Aspects Group 2",
+    "2": "Positive Aspects Group 3",
+    "3": "Positive Aspects Group 4"
   },
   "negative": {
-    "0": "Organization and communication issues",
-    "1": "Food and meal options",
-    "2": "False negative / should be reviewed",
-    "3": "Schedule intensity and session clarity"
+    "0": "Negative Aspects Group 1",
+    "1": "Negative Aspects Group 2",
+    "2": "Negative Aspects Group 3",
+    "3": "Negative Aspects Group 4"
   }
 }

@@ -1,11 +1,12 @@
+"""Pick representative participant quotes closest to each cluster centre."""
+
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 
 def parse_embedding(value):
     """
-    Converts stored embedding text back into a NumPy array.
-    This is needed if embeddings were saved to CSV.
+    Converts stored embedding text back into a NumPy array,  if embeddings were saved to CSV.
     """
     if isinstance(value, np.ndarray):
         return value
@@ -23,6 +24,7 @@ def parse_embedding(value):
 
 
 def get_representative_quotes(df, cluster_id, top_n=3):
+    """Return the top_n sentences nearest the cluster centroid embedding."""
     subset = df[df["cluster"] == cluster_id].copy()
 
     if subset.empty:

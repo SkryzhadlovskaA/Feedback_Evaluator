@@ -8,8 +8,11 @@ OUTPUT_PATH = "data/processed/sentences_with_sentiment.csv"
 def main():
     df = pd.read_csv(INPUT_PATH)
 
-    df[["sentiment", "sentiment_score"]] = df["sentence"].apply(
-        lambda s: pd.Series(get_sentiment(s))
+    df[["sentiment", "sentiment_score"]] = df.apply(
+        lambda row: pd.Series(
+            get_sentiment(row["sentence"], row.get("question"))
+        ),
+        axis=1
     )
 
     print("Total sentences:", len(df))

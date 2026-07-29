@@ -1,4 +1,4 @@
-project_id,response_id,question,text,sentence,sentiment,sentiment_score,is_learning,embedding,outcome_key,outcome_label,outcome_score,multi_matches
+project_id,response_id,question,text,sentence,sentiment,sentiment_score,is_learning,embedding,outcome_key,outcome_label,outcome_score
 proj_test,26,What did you learn?,I became more confident speaking English in front of others.,I became more confident speaking English in front of others.,positive,0.5413,True,"[ 7.27227628e-02 -8.43702350e-03  8.48916695e-02 -1.84105262e-02
   5.11240214e-02 -6.47603124e-02  9.52111632e-02  7.66424276e-03
   5.84308570e-03 -6.23099841e-02  2.30637994e-02  3.13724242e-02
@@ -94,7 +94,7 @@ proj_test,26,What did you learn?,I became more confident speaking English in fro
   4.70529869e-03 -5.53581789e-02  4.60720994e-02  3.08533721e-02
   2.80158856e-04  7.48750865e-02  7.29843602e-02  4.33901474e-02
  -4.99993414e-02 -3.19954054e-03 -3.62585187e-02  7.85098299e-02
-  2.92139910e-02  6.27056062e-02 -1.34000674e-01 -4.33619618e-02]",language_digital,Improved foreign language and digital competences,0.5818413496017456,"[{""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.5818413496017456}, {""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.5171785354614258}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.4498964548110962}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.4435797333717346}, {""outcome_key"": ""self_empowerment"", ""outcome_label"": ""Increased self-empowerment and self-esteem"", ""score"": 0.4282028079032898}, {""outcome_key"": ""initiative_entrepreneurship"", ""outcome_label"": ""Increased sense of initiative and entrepreneurship"", ""score"": 0.3992340862751007}]"
+  2.92139910e-02  6.27056062e-02 -1.34000674e-01 -4.33619618e-02]",language_digital,Improved foreign language and digital competences,0.5818413496017456
 proj_test,27,What did you learn?,I learned how to work with people from very different cultural backgrounds.,I learned how to work with people from very different cultural backgrounds.,neutral,0.0,True,"[ 7.70621421e-03  7.06089363e-02 -2.16711070e-02  2.12102719e-02
  -1.70175731e-02 -5.17692454e-02  5.70011102e-02 -6.33359253e-02
  -1.96818989e-02 -4.39094454e-02  3.58333550e-02  1.36183733e-02
@@ -190,7 +190,7 @@ proj_test,27,What did you learn?,I learned how to work with people from very dif
  -7.07455501e-02  6.40755743e-02  3.98347154e-02  2.04660818e-02
   1.15299821e-02  2.09803730e-02  1.56011343e-01 -6.20600656e-02
  -1.73367269e-03 -1.95221156e-02 -1.52544528e-02  6.06077164e-02
-  3.76576856e-02  8.41087401e-02 -9.61015299e-02  4.75715771e-02]",intercultural_awareness,Enhanced intercultural awareness,0.6723079681396484,"[{""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.6723079681396484}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.5888972282409668}, {""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.48168426752090454}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.4462524950504303}, {""outcome_key"": ""eu_values_awareness"", ""outcome_label"": ""Better awareness of the European project and the EU values"", ""score"": 0.3843829333782196}]"
+  3.76576856e-02  8.41087401e-02 -9.61015299e-02  4.75715771e-02]",intercultural_awareness,Enhanced intercultural awareness,0.6723079681396484
 proj_test,28,What did you learn?,This project improved my communication and teamwork skills.,This project improved my communication and teamwork skills.,positive,0.4767,True,"[-4.82332148e-02  5.79843596e-02  2.54855528e-02 -1.54062342e-02
   2.20826305e-02 -5.57989553e-02 -1.24952840e-02 -3.06303357e-03
  -1.36738354e-02 -3.82881649e-02 -2.14365050e-02  4.53108065e-02
@@ -286,7 +286,7 @@ proj_test,28,What did you learn?,This project improved my communication and team
  -7.15978295e-02 -7.63008893e-02  3.68774426e-03  8.05054754e-02
   2.57580094e-02  7.95747563e-02  3.24527696e-02  1.01165451e-01
  -6.55855006e-03 -3.32255922e-02  1.67988951e-03  2.68709753e-02
-  8.90644565e-02  7.73665607e-02 -1.63503140e-01 -3.03121973e-02]",learning_performance,Improved learning performance,0.5775076746940613,"[{""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.5775076746940613}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.5483816862106323}, {""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.47831130027770996}, {""outcome_key"": ""employability"", ""outcome_label"": ""Enhanced employability and improved career prospects"", ""score"": 0.4191618263721466}]"
+  8.90644565e-02  7.73665607e-02 -1.63503140e-01 -3.03121973e-02]",learning_performance,Improved learning performance,0.5775076746940613
 proj_test,29,What did you learn?,I feel more open-minded and understanding toward other cultures now.,I feel more open-minded and understanding toward other cultures now.,neutral,0.0,True,"[ 1.15935162e-01 -5.78338951e-02 -2.24620360e-03 -9.20986757e-03
   9.26292762e-02 -9.86345485e-02 -2.57319212e-02  8.23276304e-03
   6.43774495e-02 -2.59136222e-02  7.80199617e-02 -3.56409000e-03
@@ -382,7 +382,7 @@ proj_test,29,What did you learn?,I feel more open-minded and understanding towar
  -7.38919452e-02 -2.23659939e-04  5.49914204e-02  8.70755613e-02
   2.73401886e-02 -1.57618690e-02  5.47518134e-02 -6.42995760e-02
  -7.44485408e-02  9.77374390e-02 -3.22593413e-02  6.47653267e-02
-  7.10245296e-02 -8.86814389e-03 -4.57126051e-02  1.52621930e-02]",intercultural_awareness,Enhanced intercultural awareness,0.7864899635314941,"[{""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.7864899635314941}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.41633328795433044}, {""outcome_key"": ""active_participation"", ""outcome_label"": ""More active participation in society"", ""score"": 0.3869269788265228}]"
+  7.10245296e-02 -8.86814389e-03 -4.57126051e-02  1.52621930e-02]",intercultural_awareness,Enhanced intercultural awareness,0.7864899635314941
 proj_test,30,What did you learn?,I realized I can take more initiative in group work.,I realized I can take more initiative in group work.,neutral,0.0,True,"[-6.48578489e-03  1.76675661e-04  8.91087949e-03  3.63840312e-02
   5.25049455e-02 -5.44389337e-02  4.83709611e-02 -4.41817939e-02
  -8.01481120e-03  1.70611534e-02 -5.67163341e-04  5.51852733e-02
@@ -478,7 +478,7 @@ proj_test,30,What did you learn?,I realized I can take more initiative in group 
  -2.08438151e-02 -6.55058399e-02  2.70169843e-02 -1.21877305e-02
   4.39469367e-02  8.21981356e-02  7.52695128e-02  7.15885609e-02
  -1.79047212e-02  1.44762127e-02  2.65436503e-03 -4.82215546e-03
-  8.07575732e-02 -3.76548655e-02 -1.35613725e-01 -9.20491479e-03]",initiative_entrepreneurship,Increased sense of initiative and entrepreneurship,0.5595909357070923,"[{""outcome_key"": ""initiative_entrepreneurship"", ""outcome_label"": ""Increased sense of initiative and entrepreneurship"", ""score"": 0.5595909357070923}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.47125786542892456}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.41719961166381836}]"
+  8.07575732e-02 -3.76548655e-02 -1.35613725e-01 -9.20491479e-03]",initiative_entrepreneurship,Increased sense of initiative and entrepreneurship,0.5595909357070923
 proj_test,31,What did you learn?,I gained more self-confidence and I am less afraid to share my opinion.,I gained more self-confidence and I am less afraid to share my opinion.,positive,0.5478,True,"[ 4.17686217e-02  1.86610613e-02  1.63892563e-02  5.22120595e-02
   7.06413910e-02 -2.81908680e-02  5.82030527e-02  7.18766600e-02
   3.13886255e-02 -8.55336413e-02  3.37898321e-02 -1.87392402e-02
@@ -574,7 +574,7 @@ proj_test,31,What did you learn?,I gained more self-confidence and I am less afr
  -3.85407656e-02 -2.71917842e-02  4.56655473e-02 -1.16123222e-02
   4.53601032e-02  4.70970720e-02 -3.36617464e-03  9.19499174e-02
  -1.08238064e-01  4.37420271e-02 -3.13258916e-02  3.29511948e-02
-  3.11449990e-02 -2.58388165e-02 -1.13769814e-01  1.12954127e-02]",self_empowerment,Increased self-empowerment and self-esteem,0.607978880405426,"[{""outcome_key"": ""self_empowerment"", ""outcome_label"": ""Increased self-empowerment and self-esteem"", ""score"": 0.607978880405426}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.4203195571899414}, {""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.40055352449417114}]"
+  3.11449990e-02 -2.58388165e-02 -1.13769814e-01  1.12954127e-02]",self_empowerment,Increased self-empowerment and self-esteem,0.607978880405426
 proj_test,32,What did you learn?,My English improved a lot during the exchange.,My English improved a lot during the exchange.,positive,0.4767,True,"[ 3.97442132e-02 -1.33068282e-02  1.24753788e-01 -8.85129254e-03
  -2.82730088e-02 -1.32671008e-02  5.71041740e-02 -1.85128544e-02
   9.76664945e-03 -1.12461550e-02  2.95792185e-02  7.60621652e-02
@@ -670,7 +670,7 @@ proj_test,32,What did you learn?,My English improved a lot during the exchange.,
  -4.98602167e-03 -8.58282223e-02  6.88044876e-02  2.20629126e-02
  -2.01479066e-02  4.56966124e-02  5.70039600e-02  2.25631874e-02
  -1.76583324e-02 -6.61846027e-02  1.92792416e-02  2.61785090e-02
-  1.01241916e-02  8.54026824e-02 -9.82184112e-02 -2.16930248e-02]",language_digital,Improved foreign language and digital competences,0.5356268286705017,"[{""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.5356268286705017}, {""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.4522879123687744}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.42890867590904236}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.4057876467704773}]"
+  1.01241916e-02  8.54026824e-02 -9.82184112e-02 -2.16930248e-02]",language_digital,Improved foreign language and digital competences,0.5356268286705017
 proj_test,33,What did you learn?,I learned to collaborate better and listen more carefully to others.,I learned to collaborate better and listen more carefully to others.,positive,0.5709,True,"[ 4.17863429e-02 -7.88125843e-02 -4.62275557e-03  7.39267375e-03
  -8.54487624e-03  1.84164215e-02  2.20911913e-02 -3.38490047e-02
   4.54385392e-02 -4.29789796e-02 -4.29871865e-03  9.37438309e-02
@@ -766,7 +766,7 @@ proj_test,33,What did you learn?,I learned to collaborate better and listen more
  -1.67384502e-02 -3.18007395e-02  2.57792398e-02  2.82582752e-02
   8.38118494e-02 -1.31547563e-02  9.90746394e-02  2.15111803e-02
  -4.53200005e-02  1.29784802e-02 -3.04026771e-02  2.71586478e-02
-  5.22815958e-02  5.61274029e-02 -1.07997827e-01  2.91145267e-03]",positive_interactions,Enhanced positive interactions with people from different backgrounds,0.6252397298812866,"[{""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.6252397298812866}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.5154569149017334}, {""outcome_key"": ""initiative_entrepreneurship"", ""outcome_label"": ""Increased sense of initiative and entrepreneurship"", ""score"": 0.47066348791122437}, {""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.43767163157463074}, {""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.38971203565597534}]"
+  5.22815958e-02  5.61274029e-02 -1.07997827e-01  2.91145267e-03]",positive_interactions,Enhanced positive interactions with people from different backgrounds,0.6252397298812866
 proj_test,34,What did you learn?,This experience motivated me to join more trainings in the future.,This experience motivated me to join more trainings in the future.,positive,0.6369,True,"[ 2.26479303e-03 -9.23548080e-03  3.63599472e-02  6.86357841e-02
   3.98437977e-02 -3.15476619e-02 -4.12631519e-02 -2.93721724e-02
  -3.11353207e-02 -1.06496982e-01 -4.49956581e-02  2.14259177e-02
@@ -862,7 +862,7 @@ proj_test,34,What did you learn?,This experience motivated me to join more train
  -9.21996718e-04  9.79226432e-04  8.01527873e-03 -2.33264081e-03
   9.68029257e-03  1.42486335e-03  5.99666387e-02  3.16584622e-03
  -2.77318452e-02 -1.89088844e-02 -5.49173504e-02  9.61239710e-02
-  5.94133046e-04 -8.75744224e-02 -1.03694364e-01  3.21350731e-02]",future_motivation,Increased motivation for future education or training,0.6219907402992249,"[{""outcome_key"": ""future_motivation"", ""outcome_label"": ""Increased motivation for future education or training"", ""score"": 0.6219907402992249}, {""outcome_key"": ""employability"", ""outcome_label"": ""Enhanced employability and improved career prospects"", ""score"": 0.467504620552063}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.43437522649765015}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.41218966245651245}, {""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.39036914706230164}]"
+  5.94133046e-04 -8.75744224e-02 -1.03694364e-01  3.21350731e-02]",future_motivation,Increased motivation for future education or training,0.6219907402992249
 proj_test,35,What did you learn?,I became more aware of European values and active citizenship.,I became more aware of European values and active citizenship.,positive,0.6597,True,"[ 8.76249820e-02  1.98419336e-02 -8.56456533e-02 -2.95506828e-02
   4.87457700e-02  2.58017867e-03  2.96195764e-02 -1.33043602e-02
  -4.21949923e-02 -4.28021513e-02  4.56312783e-02 -1.99611653e-02
@@ -958,7 +958,7 @@ proj_test,35,What did you learn?,I became more aware of European values and acti
  -8.26153439e-03 -4.41858405e-03  1.51345534e-02  6.29316941e-02
   5.68108782e-02  1.80421695e-02  9.12277475e-02 -3.16226073e-02
   4.78325337e-02  9.74540412e-02  6.00353777e-02  3.69225405e-02
-  4.64888029e-02 -4.80090827e-02 -7.05991536e-02  5.85974241e-03]",eu_values_awareness,Better awareness of the European project and the EU values,0.6952058672904968,"[{""outcome_key"": ""eu_values_awareness"", ""outcome_label"": ""Better awareness of the European project and the EU values"", ""score"": 0.6952058672904968}, {""outcome_key"": ""active_participation"", ""outcome_label"": ""More active participation in society"", ""score"": 0.48823022842407227}, {""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.4792124629020691}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.3826017379760742}]"
+  4.64888029e-02 -4.80090827e-02 -7.05991536e-02  5.85974241e-03]",eu_values_awareness,Better awareness of the European project and the EU values,0.6952058672904968
 proj_test,36,What did you learn?,I improved my digital skills while preparing content with the group.,I improved my digital skills while preparing content with the group.,positive,0.4767,True,"[-1.34032778e-02 -3.57051403e-03  2.98025808e-03 -3.42184003e-03
  -2.53656041e-02 -5.23559451e-02  2.07664613e-02 -1.33809401e-02
  -4.94221114e-02  2.80216592e-03  3.74728031e-02  7.87004456e-02
@@ -1054,7 +1054,7 @@ proj_test,36,What did you learn?,I improved my digital skills while preparing co
  -1.36638917e-02 -5.92257902e-02 -8.82945769e-03  2.04892531e-02
  -9.02077369e-03  5.46769425e-02  2.99490839e-02 -1.26134092e-02
   5.34332730e-02  8.45860690e-02 -4.31854464e-02  4.63988073e-02
- -5.96096879e-03  3.39058265e-02 -1.36980727e-01 -2.51959655e-02]",language_digital,Improved foreign language and digital competences,0.6059811115264893,"[{""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.6059811115264893}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.5441473126411438}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.5397607088088989}, {""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.3929596245288849}, {""outcome_key"": ""employability"", ""outcome_label"": ""Enhanced employability and improved career prospects"", ""score"": 0.3910682201385498}, {""outcome_key"": ""initiative_entrepreneurship"", ""outcome_label"": ""Increased sense of initiative and entrepreneurship"", ""score"": 0.3906790018081665}, {""outcome_key"": ""active_participation"", ""outcome_label"": ""More active participation in society"", ""score"": 0.3820601999759674}]"
+ -5.96096879e-03  3.39058265e-02 -1.36980727e-01 -2.51959655e-02]",language_digital,Improved foreign language and digital competences,0.6059811115264893
 proj_test,37,What did you learn?,I now understand cultural differences much better.,I now understand cultural differences much better.,positive,0.4404,True,"[ 1.06887184e-01  6.12055846e-02  1.43792771e-03 -2.62122452e-02
   3.58859487e-02 -9.77302268e-02 -1.73793044e-02 -6.87112957e-02
   4.38108742e-02 -4.45261933e-02  7.18524158e-02 -9.38604679e-03
@@ -1150,7 +1150,7 @@ proj_test,37,What did you learn?,I now understand cultural differences much bett
  -8.34780931e-02  1.98871992e-03  4.75056320e-02  3.88082713e-02
   2.00952087e-02 -6.76691998e-04  1.46188810e-01 -9.60043594e-02
  -9.24022309e-03  2.09466107e-02  6.35394454e-02  9.93698761e-02
-  6.08946756e-02  3.73836644e-02  3.37095186e-02  1.07938228e-02]",intercultural_awareness,Enhanced intercultural awareness,0.67521071434021,"[{""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.67521071434021}, {""outcome_key"": ""eu_values_awareness"", ""outcome_label"": ""Better awareness of the European project and the EU values"", ""score"": 0.3981528878211975}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.3926582336425781}]"
+  6.08946756e-02  3.73836644e-02  3.37095186e-02  1.07938228e-02]",intercultural_awareness,Enhanced intercultural awareness,0.67521071434021
 proj_test,38,What did you learn?,I learned that I am capable of much more than I thought.,I learned that I am capable of much more than I thought.,positive,0.3818,True,"[ 8.86318758e-02 -8.05927888e-02 -5.09362668e-02  6.13446645e-02
  -4.99227121e-02 -3.21049243e-02  9.17400196e-02  5.22045977e-02
  -4.13524034e-03  6.31393772e-03  3.63247981e-03  2.25395691e-02
@@ -1246,7 +1246,7 @@ proj_test,38,What did you learn?,I learned that I am capable of much more than I
   2.49578040e-02 -3.16949864e-03  7.25853220e-02  6.51280805e-02
   4.35722433e-02 -1.89217944e-02  1.34890512e-01  5.51104210e-02
  -1.60107967e-02  2.80509633e-03 -6.75852597e-02  4.29578424e-02
-  1.05335757e-01  2.62997914e-02 -5.28068841e-02  5.11020841e-03]",self_empowerment,Increased self-empowerment and self-esteem,0.5196196436882019,"[{""outcome_key"": ""self_empowerment"", ""outcome_label"": ""Increased self-empowerment and self-esteem"", ""score"": 0.5196196436882019}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.5068858861923218}, {""outcome_key"": ""initiative_entrepreneurship"", ""outcome_label"": ""Increased sense of initiative and entrepreneurship"", ""score"": 0.4406425952911377}, {""outcome_key"": ""future_motivation"", ""outcome_label"": ""Increased motivation for future education or training"", ""score"": 0.39445167779922485}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.3903265595436096}]"
+  1.05335757e-01  2.62997914e-02 -5.28068841e-02  5.11020841e-03]",self_empowerment,Increased self-empowerment and self-esteem,0.5196196436882019
 proj_test,39,What did you learn?,This mobility helped me think more seriously about my future career.,This mobility helped me think more seriously about my future career.,negative,-0.2484,True,"[-4.98211768e-04  2.37933174e-02  4.84241955e-02  2.28722524e-02
   2.81548370e-02 -5.13855442e-02  9.88953859e-02  7.27963299e-02
   9.81814880e-03 -4.15119529e-02 -5.51773328e-03  9.60576907e-02
@@ -1342,7 +1342,7 @@ proj_test,39,What did you learn?,This mobility helped me think more seriously ab
  -3.60533521e-02  3.18827145e-02  2.52649914e-02  4.03757207e-03
   6.66665565e-03  2.69327853e-02  2.54716035e-02  2.73297671e-02
  -2.88604628e-02  1.28592029e-02 -8.62530544e-02  4.19885144e-02
-  7.45163113e-02  1.01393387e-02 -7.05481321e-02  4.25010063e-02]",employability,Enhanced employability and improved career prospects,0.4784352481365204,"[{""outcome_key"": ""employability"", ""outcome_label"": ""Enhanced employability and improved career prospects"", ""score"": 0.4784352481365204}, {""outcome_key"": ""initiative_entrepreneurship"", ""outcome_label"": ""Increased sense of initiative and entrepreneurship"", ""score"": 0.42682716250419617}, {""outcome_key"": ""active_participation"", ""outcome_label"": ""More active participation in society"", ""score"": 0.4259830713272095}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.42013150453567505}, {""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.4133310616016388}, {""outcome_key"": ""future_motivation"", ""outcome_label"": ""Increased motivation for future education or training"", ""score"": 0.4013001322746277}, {""outcome_key"": ""self_empowerment"", ""outcome_label"": ""Increased self-empowerment and self-esteem"", ""score"": 0.39699587225914}]"
+  7.45163113e-02  1.01393387e-02 -7.05481321e-02  4.25010063e-02]",employability,Enhanced employability and improved career prospects,0.4784352481365204
 proj_test,40,What did you learn?,I feel inspired to continue learning after this project.,I feel inspired to continue learning after this project.,positive,0.4939,True,"[-1.18240444e-02 -5.83379529e-02  4.93003987e-02 -4.92881238e-03
   3.21204029e-02 -1.40939094e-02 -3.21214460e-02 -2.65052672e-02
  -1.83835381e-03  1.98486503e-02 -4.31583710e-02  9.70557034e-02
@@ -1438,7 +1438,7 @@ proj_test,40,What did you learn?,I feel inspired to continue learning after this
  -2.14457326e-02  5.77857792e-02 -3.50649580e-02 -1.46751953e-02
   3.75899710e-02  1.90573763e-02  9.11851823e-02 -3.00729461e-02
  -4.11687307e-02 -1.18303271e-02 -8.22840855e-02  8.62983242e-02
-  5.63419685e-02  4.50286493e-02 -7.53676519e-02  6.30533099e-02]",future_motivation,Increased motivation for future education or training,0.5216091275215149,"[{""outcome_key"": ""future_motivation"", ""outcome_label"": ""Increased motivation for future education or training"", ""score"": 0.5216091275215149}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.45780879259109497}, {""outcome_key"": ""initiative_entrepreneurship"", ""outcome_label"": ""Increased sense of initiative and entrepreneurship"", ""score"": 0.3801170587539673}]"
+  5.63419685e-02  4.50286493e-02 -7.53676519e-02  6.30533099e-02]",future_motivation,Increased motivation for future education or training,0.5216091275215149
 proj_test,54,What did you learn?,I developed better problem-solving skills during the activities.,I developed better problem-solving skills during the activities.,positive,0.4404,True,"[ 2.73175240e-02  4.77584228e-02  5.01351990e-02  1.88641027e-02
  -4.85972017e-02 -3.53342555e-02  5.73063157e-02  6.45532459e-02
  -6.02584071e-02  1.03687905e-02 -7.02438271e-03  7.52223954e-02
@@ -1534,7 +1534,7 @@ proj_test,54,What did you learn?,I developed better problem-solving skills durin
   3.47557366e-02 -1.34588014e-02  1.11350128e-02  5.89566939e-02
   2.95844837e-03 -6.37930632e-03  5.08932024e-02  4.73649502e-02
   4.42389436e-02 -5.55297211e-02 -9.43230465e-02  2.88662892e-02
-  3.16798650e-02  9.08627957e-02 -1.03605002e-01  3.14980894e-02]",learning_performance,Improved learning performance,0.6354634761810303,"[{""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.6354634761810303}, {""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.6057612895965576}, {""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.5322302579879761}, {""outcome_key"": ""initiative_entrepreneurship"", ""outcome_label"": ""Increased sense of initiative and entrepreneurship"", ""score"": 0.521357536315918}, {""outcome_key"": ""employability"", ""outcome_label"": ""Enhanced employability and improved career prospects"", ""score"": 0.47725898027420044}, {""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.43471503257751465}, {""outcome_key"": ""future_motivation"", ""outcome_label"": ""Increased motivation for future education or training"", ""score"": 0.41480326652526855}]"
+  3.16798650e-02  9.08627957e-02 -1.03605002e-01  3.14980894e-02]",learning_performance,Improved learning performance,0.6354634761810303
 proj_test,55,What did you learn?,I became more patient and better at cooperating with others.,I became more patient and better at cooperating with others.,positive,0.4877,True,"[-4.96718753e-03  3.31268832e-02  3.33934724e-02  6.07242770e-02
   2.59634480e-03 -1.12954870e-01  3.78472060e-02 -1.72872422e-03
   1.16726030e-02 -9.81722027e-02 -7.92049989e-03  8.25182274e-02
@@ -1630,7 +1630,7 @@ proj_test,55,What did you learn?,I became more patient and better at cooperating
  -1.57196987e-02 -7.70221502e-02  4.34993170e-02  6.63251994e-05
   5.69808017e-03 -3.70042436e-02  5.06378412e-02 -1.26907341e-02
  -1.16177713e-02  3.42672877e-02 -7.92079698e-03  4.58244793e-02
- -1.02427313e-02  6.78898208e-03 -1.11039311e-01 -5.09946123e-02]",positive_interactions,Enhanced positive interactions with people from different backgrounds,0.6449308395385742,"[{""outcome_key"": ""positive_interactions"", ""outcome_label"": ""Enhanced positive interactions with people from different backgrounds"", ""score"": 0.6449308395385742}, {""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.4879698157310486}, {""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.46487319469451904}, {""outcome_key"": ""self_empowerment"", ""outcome_label"": ""Increased self-empowerment and self-esteem"", ""score"": 0.4440355896949768}, {""outcome_key"": ""learning_performance"", ""outcome_label"": ""Improved learning performance"", ""score"": 0.4419383108615875}, {""outcome_key"": ""initiative_entrepreneurship"", ""outcome_label"": ""Increased sense of initiative and entrepreneurship"", ""score"": 0.429765522480011}, {""outcome_key"": ""future_motivation"", ""outcome_label"": ""Increased motivation for future education or training"", ""score"": 0.41254228353500366}, {""outcome_key"": ""active_participation"", ""outcome_label"": ""More active participation in society"", ""score"": 0.39380618929862976}, {""outcome_key"": ""employability"", ""outcome_label"": ""Enhanced employability and improved career prospects"", ""score"": 0.3829256296157837}]"
+ -1.02427313e-02  6.78898208e-03 -1.11039311e-01 -5.09946123e-02]",positive_interactions,Enhanced positive interactions with people from different backgrounds,0.6449308395385742
 proj_test,58,What did you learn?,I am more motivated to study abroad again in the future.,I am more motivated to study abroad again in the future.,positive,0.5095,True,"[ 4.53543924e-02 -6.40826151e-02  4.92061749e-02  1.56525094e-02
   5.01667820e-02 -3.36834639e-02 -5.98267987e-02  7.77466316e-03
  -3.50414477e-02 -2.76689157e-02 -1.25159733e-02  7.83250015e-03
@@ -1726,4 +1726,4 @@ proj_test,58,What did you learn?,I am more motivated to study abroad again in th
  -1.68473122e-03  1.03010591e-02 -1.23844348e-01 -4.40447452e-03
  -3.41410711e-02 -3.64679359e-02  1.27838096e-02  7.74655193e-02
  -6.77911118e-02  1.55001292e-02 -9.15308148e-02  8.06644633e-02
-  5.35692796e-02 -5.33675961e-02 -6.81487769e-02 -2.44945493e-02]",future_motivation,Increased motivation for future education or training,0.5709872245788574,"[{""outcome_key"": ""future_motivation"", ""outcome_label"": ""Increased motivation for future education or training"", ""score"": 0.5709872245788574}, {""outcome_key"": ""language_digital"", ""outcome_label"": ""Improved foreign language and digital competences"", ""score"": 0.4160315692424774}, {""outcome_key"": ""intercultural_awareness"", ""outcome_label"": ""Enhanced intercultural awareness"", ""score"": 0.40672963857650757}, {""outcome_key"": ""employability"", ""outcome_label"": ""Enhanced employability and improved career prospects"", ""score"": 0.3953636884689331}]"
+  5.35692796e-02 -5.33675961e-02 -6.81487769e-02 -2.44945493e-02]",future_motivation,Increased motivation for future education or training,0.5709872245788574
